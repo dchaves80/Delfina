@@ -1,0 +1,22 @@
+.photocontainer
+{
+    display: inline-flex;
+    width: 8em;
+    height: 6em;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    content:" ";
+    background-size:cover;
+    transition-property: width;
+    transition-property: height;
+    transition-duration: 0.3s;
+}
+.photocontainer:hover
+{
+    
+    width: 24em;
+    height: 18em;
+    
+    
+}

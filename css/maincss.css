@@ -1,0 +1,47 @@
+body
+{
+    background-color:#191919;
+    font-family: 'Inconsolata', monospace;
+    padding:0em;
+    margin: 0em;
+}
+.title
+{
+    text-align: center;
+    font-size: 2em;
+    border-bottom: #666666 1px solid;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color:white;
+    background-color: #e51a4c;
+    
+}
+.menuoption
+{
+    display: inline-flex;
+    padding: 0.5em;
+    border: 1px #00ff7f;
+    border-top: none;
+    border-left: none;
+    border-radius: 0.3em;
+    margin: 0.5em;
+    cursor: pointer;
+    transition-property: padding;
+    transition-duration: 0.5s;
+    color:#EEEEEE;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+.menuoption:hover
+{
+    padding-left: 1.4em;
+    color:#333333;
+    background-color: #EEEEEE;
+}
+.menu
+{
+    background-color: rgb(196, 139, 165);;
+    height: 0.1em;
+    padding-top: 1em;
+    margin-bottom: 5em;
+}

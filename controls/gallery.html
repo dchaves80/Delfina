@@ -1,0 +1,23 @@
+<div id="galeria">
+    <script>
+        var resultdata = "";
+        $.get("./gallerylist.txt",function(data)
+        {
+            resultdata = data;
+            rendercontrols();
+        },"text");
+
+
+        function rendercontrols()
+        {
+            var archivo = resultdata.toString().split(",");
+        var maincontainer = $("#content").find("#galeria");
+        for (a=0;a<archivo.length;a++)
+        {
+            $(maincontainer).append("<div class=\"photocontainer\" style=\"background-image:url('./images/" + archivo[a] + "')\"></div>");
+        }
+        }
+
+        
+    </script>
+</div>
