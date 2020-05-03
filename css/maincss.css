@@ -96,6 +96,10 @@ body
 
 
 @media (orientation: landscape) {
+    .rotationwarning{
+        display: none;
+
+    }
     .homecontent
     {
         font-size: 3em;
@@ -110,7 +114,35 @@ body
     }
   }
   
+  .rotationwarning
+  {
+      font-size: 1.5;
+      color:transparent;
+      animation-name: warning;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+  }
+  @keyframes warning
+  {
+    0% {color:transparent}
+    40% {color:tomato}
+    60% {color: tomato}
+    100%{color:transparent}
+  }
+  
+
+
+  #imgrotation
+  {
+      width:4em;
+      height: 2em;
+       filter:  invert()  saturate(100) hue-rotate(241.5deg);
+
   @media (orientation: portrait) {
+    .rotationwarning{
+        display: inline-block
+
+    }
     .homecontent
     {
         font-size: 4em;
@@ -128,3 +160,4 @@ body
         padding-top: 16em;
     }
   }
+  
