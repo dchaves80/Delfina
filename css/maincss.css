@@ -9,7 +9,7 @@ body
 }
 #content
 {
-    padding-top: 7em;
+    padding-top: 9.5em;
 }
 .title
 {
@@ -45,19 +45,22 @@ body
     color:#333333;
     background-color: #EEEEEE;
 }
-.menu
-{
-    background-color: rgb(196, 139, 165);;
-    height: 0.1em;
-    padding-top: 0em;
-    position: fixed;
-    
+.menu {
+	background-color: rgb(196, 139, 165);
+	height: 0.1em;
+	padding-top: 0.1em;
+	position: fixed;
+	width: 100%;
+	display: inline-block;
+	margin-top: 6em;
 }
+
 
 @media (orientation: landscape) {
     .menuoption {
       font-size: 1em;
     }
+    
     .menu
     {
         margin-bottom: 5em;
