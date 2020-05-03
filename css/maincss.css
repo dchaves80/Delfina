@@ -7,6 +7,10 @@ body
     height: 100%;
     width: 100%;
 }
+#content
+{
+    padding-top: 7em;
+}
 .title
 {
     text-align: center;
@@ -16,7 +20,9 @@ body
     padding-bottom: 1em;
     color:white;
     background-color: #e51a4c;
-    
+    position: fixed;
+    display: inline-block;
+    width: 100%;
 }
 .menuoption
 {
@@ -43,7 +49,8 @@ body
 {
     background-color: rgb(196, 139, 165);;
     height: 0.1em;
-    padding-top: 1em;
+    padding-top: 0em;
+    position: fixed;
     
 }
 
