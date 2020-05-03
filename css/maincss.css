@@ -22,7 +22,7 @@ body
 @keyframes heartanimated
 {
     0% {color: #e51a4c;}
-    50% {color: white;}
+    90% {color: white;}
     100% {color: #e51a4c;}
 }
 #content
