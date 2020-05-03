@@ -76,4 +76,8 @@ body
     {
         margin-bottom: 15em;
     }
+    #content
+    {
+        padding-top: 13em;
+    }
   }
