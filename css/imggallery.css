@@ -11,7 +11,7 @@
     margin-top: 0em;
     margin-right: 0em;
     transition-property: width, height,margin-top,margin-right;
-    
+    cursor: pointer;
     transition-duration: 0.3s;
 }
 .photocontainer:hover
@@ -34,7 +34,10 @@
 #paneright
 {
     display: inline-flex;
+    position: fixed;
     width: 49%;
-    height: 90%;
-    content:" "
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
 }

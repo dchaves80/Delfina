@@ -8,6 +8,12 @@
             rendercontrols();
         },"text");
 
+        function clickthumb(obj)
+        {
+            
+            var filename = $(obj).attr("data");
+            $("#content").find("#paneright").css("background-image","url('./images/" + filename + "')");
+        }
 
         function rendercontrols()
         {
@@ -15,9 +21,11 @@
             var maincontainer = $("#content").find("#galeria");
             for (a=0;a<archivo.length;a++)
             {
-                $(maincontainer).append("<div class=\"photocontainer\" style=\"background-image:url('./images/" + archivo[a] + "')\"></div>");
+                $(maincontainer).append("<div class=\"photocontainer\" onclick=\"clickthumb(this)\" data=\"" + archivo[a] + "\" style=\"background-image:url('./images/" + archivo[a] + "')\"></div>");
             }
         }
+
+        
     </script>
 </div>
 </div>
