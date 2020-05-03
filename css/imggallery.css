@@ -8,15 +8,19 @@
     border-width: 1px;
     content:" ";
     background-size:cover;
-    transition-property: width;
-    transition-property: height;
+    margin-top: 0em;
+    margin-right: 0em;
+    transition-property: width, height,margin-top,margin-right;
+    
     transition-duration: 0.3s;
 }
 .photocontainer:hover
 {
     
-    width: 24em;
-    height: 18em;
+    width: 9em;
+    height: 7em;
+    margin-top: -1em;
+    margin-right: -1em;
     
     
 }
