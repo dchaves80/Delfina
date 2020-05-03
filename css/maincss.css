@@ -8,6 +8,21 @@ body
     width: 100%;
     
 }
+.heart
+{
+    color:#e51a4c;
+    animation-delay: 3s;
+    animation-name: heartanimated;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    letter-spacing: 0em;
+}
+@keyframes heartanimated
+{
+    0% {color: #e51a4c}
+    50% {color: white}
+    100% {color: #e51a4c}
+}
 #content
 {
     padding-top: 9.5em;
