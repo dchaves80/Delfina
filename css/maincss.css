@@ -19,10 +19,30 @@ body
     padding-top: 1em;
     padding-bottom: 1em;
     color:white;
+    letter-spacing: 1em;
     background-color: #e51a4c;
     position: fixed;
     display: inline-block;
     width: 100%;
+    animation-name:tituloanimado;
+    animation-duration: 2s;
+    height:1em;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    overflow-wrap: break-word;
+    
+}
+@keyframes tituloanimado
+{
+    0% {width:0%; color:#e51a4c}
+    
+    50% {width:100%;color:#e51a4c}
+
+    100%{color:white }
+    
+    
+
 }
 .menuoption
 {
