@@ -44,17 +44,26 @@ body
     background-color: rgb(196, 139, 165);;
     height: 0.1em;
     padding-top: 1em;
-    margin-bottom: 5em;
+    
 }
 
 @media (orientation: landscape) {
     .menuoption {
       font-size: 1em;
     }
+    .menu
+    {
+        margin-bottom: 5em;
+    }
   }
   
   @media (orientation: portrait) {
     .menuoption {
       font-size: 3em;
+      
+    }
+    .menu
+    {
+        margin-bottom: 10em;
     }
   }
