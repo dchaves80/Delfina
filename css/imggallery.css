@@ -24,3 +24,17 @@
     
     
 }
+#paneleft
+{
+    display: inline-flex;
+    width: 49%;
+    height: 90%;
+
+}
+#paneright
+{
+    display: inline-flex;
+    width: 49%;
+    height: 90%;
+    content:" "
+}
