@@ -34,13 +34,15 @@
         <div class="title">Delfina Online</div>        
 
         <div class="menu">
-            <span class="menuoption">HOME</span>
+            <span class="menuoption" onclick="loadcontrol('./controls/home.html')">HOME</span>
             <span class="menuoption" onclick="loadcontrol('./controls/gallery.html')">IMAGENES</span>
             <span  class="menuoption" onclick="loadcontrol('./controls/videos.html')">VIDEOS</span>
         </div>
         <div id="content">
 
         </div>
-       
+       <script>
+           loadcontrol('./controls/home.html');
+       </script>
     </body>
 </html>
