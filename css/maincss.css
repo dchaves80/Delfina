@@ -32,7 +32,6 @@ body
     transition-duration: 0.5s;
     color:#EEEEEE;
     font-weight: bolder;
-    font-size: 1.5em;
 }
 .menuoption:hover
 {
@@ -47,3 +46,15 @@ body
     padding-top: 1em;
     margin-bottom: 5em;
 }
+
+@media (orientation: landscape) {
+    .menuoption {
+      font-size: 1em;
+    }
+  }
+  
+  @media (orientation: portrait) {
+    .menuoption {
+      font-size: 3em;
+    }
+  }
