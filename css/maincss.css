@@ -96,6 +96,10 @@ body
 
 
 @media (orientation: landscape) {
+    .homecontent
+    {
+        font-size: 3em;
+    }
     .menuoption {
       font-size: 1em;
     }
@@ -107,6 +111,10 @@ body
   }
   
   @media (orientation: portrait) {
+    .homecontent
+    {
+        font-size: 4em;
+    }
     .menuoption {
       font-size: 3em;
       
