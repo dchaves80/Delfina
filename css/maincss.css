@@ -116,7 +116,7 @@ body
   
   .rotationwarning
   {
-      font-size: 1.5em;
+      font-size: 3em;
       color:transparent;
       animation-name: warning;
       animation-duration: 2s;
@@ -136,7 +136,7 @@ body
   {
       width:4em;
       height: 2em;
-       filter:  invert();
+       filter:  invert() saturate(100);
     }
 
   @media (orientation: portrait) {
